@@ -4,6 +4,8 @@ Same as Movie Discovery NextJS - no new features, no UI changes. This one's a fo
 
 Did this specifically to implement component testing - rendering components in isolation, simulating real clicks and typing instead of calling functions directly, mocking network calls so tests don't need internet and getting a coverage report that actually means something instead of just chasing a number.
 
+🔗 Live demo: https://movie-discovery-next-js-testing.vercel.app
+
 ## What's different from the original
 
 Had the app working fine, but "works on my machine" isn't really proof of anything. Every real project has tests behind it - so this was about closing that gap properly instead of skipping it. Picked real components, nothing invented just to pad a requirement and tested what a user would actually experience - does it render right, does clicking things work, does the data show up after a fetch.
